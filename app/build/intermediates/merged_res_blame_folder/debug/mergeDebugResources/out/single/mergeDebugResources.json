@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.jetmovie.app-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.jetmovie.app-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/drawable_movithub3.png.flat",
+        "source": "com.example.jetmovie.app-main-6:/drawable/movithub3.png"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/xml_backup_rules.xml.flat",
+        "source": "com.example.jetmovie.app-main-6:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/drawable_movithub.webp.flat",
+        "source": "com.example.jetmovie.app-main-6:/drawable/movithub.webp"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/drawable_baseline_person_24.xml.flat",
+        "source": "com.example.jetmovie.app-main-6:/drawable/baseline_person_24.xml"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/drawable_movithub2.png.flat",
+        "source": "com.example.jetmovie.app-main-6:/drawable/movithub2.png"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/drawable_bg_image_movie.jpeg.flat",
+        "source": "com.example.jetmovie.app-main-6:/drawable/bg_image_movie.jpeg"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.jetmovie.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.jetmovie.app-debug-4:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.jetmovie.app-main-6:/xml/data_extraction_rules.xml"
+    }
+]
