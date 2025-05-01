@@ -42,8 +42,8 @@ import com.example.jetmovie.movie_detail.domain.models.MovieDetail
 import com.example.jetmovie.movie_detail.domain.models.Review
 import com.example.jetmovie.ui.home.components.MovieCard
 import com.example.jetmovie.ui.home.components.MovieCoverImage
-import com.example.jetmovie.ui.home.defaultPadding
-import com.example.jetmovie.ui.home.itemSpacing
+import com.example.jetmovie.ui.theme.defaultPadding
+import com.example.jetmovie.ui.theme.itemSpacing
 
 @Composable
 fun DetailBodyContent(

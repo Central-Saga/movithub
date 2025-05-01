@@ -90,5 +90,6 @@ dependencies {
     implementation(libs.androidx.hilt.navigation.compose)
     //splash
     implementation(libs.androidx.core.splashscreen)
+    implementation("androidx.compose.ui:ui-text-google-fonts:1.5.4")
 
 }

@@ -27,8 +27,8 @@ import coil.request.ImageRequest
 import com.example.jetmovie.R
 import com.example.jetmovie.movie_detail.domain.models.MovieDetail
 import com.example.jetmovie.ui.home.components.MovieCard
-import com.example.jetmovie.ui.home.defaultPadding
-import com.example.jetmovie.ui.home.itemSpacing
+import com.example.jetmovie.ui.theme.defaultPadding
+import com.example.jetmovie.ui.theme.itemSpacing
 import com.example.jetmovie.utils.K
 
 @Composable

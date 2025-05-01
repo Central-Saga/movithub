@@ -19,7 +19,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.example.jetmovie.movie_detail.domain.models.Review
 import com.example.jetmovie.ui.components.CollapsibleText
-import com.example.jetmovie.ui.home.itemSpacing
+import com.example.jetmovie.ui.theme.itemSpacing
 import kotlin.math.round
 
 @Composable
