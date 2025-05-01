@@ -90,53 +90,63 @@ fun HomeScreen(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .height(500.dp)
+                                .padding(top = 12.dp) // jarak dari atas
                         ) { page ->
                             val movie = carouselMovies[page]
                             Box(
                                 modifier = Modifier
                                     .fillMaxSize()
-                                    .clickable { onMovieClick(movie.id) }
+                                    .padding(horizontal = 16.dp) // jarak kiri kanan
                             ) {
-                                AsyncImage(
-                                    model = "${K.BASE_IMAGE_URL}${movie.posterPath}",
-                                    contentDescription = movie.title,
-                                    contentScale = ContentScale.Crop,
-                                    modifier = Modifier.fillMaxSize()
-                                )
-                                Box(
-                                    Modifier
-                                        .fillMaxSize()
-                                        .background(
-                                            Brush.verticalGradient(
-                                                listOf(Color.Transparent, Color.Black.copy(alpha = 0.5f))
-                                            )
-                                        )
-                                )
-                                Column(
+                                Card(
+                                    shape = RoundedCornerShape(16.dp),
                                     modifier = Modifier
-                                        .align(Alignment.BottomStart)
-                                        .padding(12.dp)
+                                        .fillMaxSize()
+                                        .clickable { onMovieClick(movie.id) }
                                 ) {
-                                    Text(
-                                        text = movie.title,
-                                        style = MaterialTheme.typography.titleLarge,
-                                        color = Color.White
-                                    )
-                                    Text(
-                                        text = "⭐ ${movie.voteAverage}",
-                                        style = MaterialTheme.typography.bodyMedium,
-                                        color = Color.White
-                                    )
-                                    Spacer(modifier = Modifier.height(4.dp))
-                                    LazyRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                                        items(movie.genreIds) { genre ->
-                                            GenreChip(
-                                                genre = genre,
-                                                isSelected = selectedGenre == genre,
-                                                onClick = {
-                                                    selectedGenre = if (selectedGenre == genre) null else genre
-                                                }
+                                    Box {
+                                        AsyncImage(
+                                            model = "${K.BASE_IMAGE_URL}${movie.posterPath}",
+                                            contentDescription = movie.title,
+                                            contentScale = ContentScale.Crop, // biar full tanpa potong
+                                            modifier = Modifier.fillMaxSize()
+                                        )
+                                        Box(
+                                            Modifier
+                                                .fillMaxSize()
+                                                .background(
+                                                    Brush.verticalGradient(
+                                                        listOf(Color.Transparent, Color.Black.copy(alpha = 0.5f))
+                                                    )
+                                                )
+                                        )
+                                        Column(
+                                            modifier = Modifier
+                                                .align(Alignment.BottomStart)
+                                                .padding(12.dp)
+                                        ) {
+                                            Text(
+                                                text = movie.title,
+                                                style = MaterialTheme.typography.titleLarge,
+                                                color = Color.White
                                             )
+                                            Text(
+                                                text = "⭐ ${movie.voteAverage}",
+                                                style = MaterialTheme.typography.bodyMedium,
+                                                color = Color.White
+                                            )
+                                            Spacer(modifier = Modifier.height(4.dp))
+                                            LazyRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                                                items(movie.genreIds) { genre ->
+                                                    GenreChip(
+                                                        genre = genre,
+                                                        isSelected = selectedGenre == genre,
+                                                        onClick = {
+                                                            selectedGenre = if (selectedGenre == genre) null else genre
+                                                        }
+                                                    )
+                                                }
+                                            }
                                         }
                                     }
                                 }
