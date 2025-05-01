@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.jetmovie"
+    namespace = "com.example.movithub"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.jetmovie"
+        applicationId = "com.example.movithub"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
