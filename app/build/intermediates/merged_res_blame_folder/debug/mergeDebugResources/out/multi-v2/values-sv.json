@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.jetmovie.app-mergeDebugResources-2:/values-sv/values-sv.xml",
+            "outputFile": "com.example.movithub.app-mergeDebugResources-2:/values-sv/values-sv.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ASUS\\.gradle\\caches\\8.10.2\\transforms\\1dc9637d360ff7d2c4083262251647bb\\transformed\\core-1.13.1\\res\\values-sv\\values-sv.xml",

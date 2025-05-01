@@ -29,7 +29,7 @@ public final class HomeViewModel_HiltModules {
 
     @Binds
     @IntoMap
-    @StringKey("com.example.jetmovie.ui.home.HomeViewModel")
+    @StringKey("com.example.movithub.ui.home.HomeViewModel")
     @HiltViewModelMap
     public abstract ViewModel binds(HomeViewModel vm);
   }
@@ -44,7 +44,7 @@ public final class HomeViewModel_HiltModules {
     @IntoSet
     @HiltViewModelMap.KeySet
     public static String provide() {
-      return "com.example.jetmovie.ui.home.HomeViewModel";
+      return "com.example.movithub.ui.home.HomeViewModel";
     }
   }
 }

@@ -29,7 +29,7 @@ public final class DetailViewModel_HiltModules {
 
     @Binds
     @IntoMap
-    @StringKey("com.example.jetmovie.ui.detail.DetailViewModel")
+    @StringKey("com.example.movithub.ui.detail.DetailViewModel")
     @HiltViewModelMap
     public abstract ViewModel binds(DetailViewModel vm);
   }
@@ -44,7 +44,7 @@ public final class DetailViewModel_HiltModules {
     @IntoSet
     @HiltViewModelMap.KeySet
     public static String provide() {
-      return "com.example.jetmovie.ui.detail.DetailViewModel";
+      return "com.example.movithub.ui.detail.DetailViewModel";
     }
   }
 }

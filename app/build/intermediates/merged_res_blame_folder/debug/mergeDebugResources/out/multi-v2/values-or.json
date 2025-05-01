@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.jetmovie.app-mergeDebugResources-2:/values-or/values-or.xml",
+            "outputFile": "com.example.movithub.app-mergeDebugResources-2:/values-or/values-or.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ASUS\\.gradle\\caches\\8.10.2\\transforms\\3d0bbeb6af7a175ebc0d5b6f9b7782fb\\transformed\\ui-release\\res\\values-or\\values-or.xml",

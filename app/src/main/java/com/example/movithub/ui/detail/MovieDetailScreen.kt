@@ -1,6 +1,7 @@
 package com.example.movithub.ui.detail
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.fillMaxSize
@@ -16,6 +17,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.example.movithub.ui.components.LoadingView
@@ -31,7 +34,20 @@ fun MovieDetailScreen(
     onActorClick: (Int) -> Unit
 ){
     val state by movieDetailViewModel.detailState.collectAsStateWithLifecycle()
-    Box(modifier = modifier.fillMaxWidth()){
+    Box(
+        modifier = modifier
+            .fillMaxWidth()
+            .background(
+                Brush.verticalGradient(
+                    listOf(
+                        Color(0xFF1DB954),
+                        Color(0xFF0D3B66),
+                        Color.Black
+                    )
+                )
+            )
+    ) {
+
         AnimatedVisibility(
             state.error !=null,
             modifier = Modifier.align(Alignment.TopCenter)

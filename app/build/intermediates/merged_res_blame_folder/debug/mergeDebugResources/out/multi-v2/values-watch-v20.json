@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.jetmovie.app-mergeDebugResources-2:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.example.movithub.app-mergeDebugResources-2:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ASUS\\.gradle\\caches\\8.10.2\\transforms\\c83d2fceeb98f15c80b0380db0203cc4\\transformed\\core-splashscreen-1.0.1\\res\\values-watch-v20\\values-watch-v20.xml",

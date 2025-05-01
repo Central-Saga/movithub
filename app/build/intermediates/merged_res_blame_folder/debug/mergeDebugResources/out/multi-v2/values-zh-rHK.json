@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.jetmovie.app-mergeDebugResources-2:/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "com.example.movithub.app-mergeDebugResources-2:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ASUS\\.gradle\\caches\\8.10.2\\transforms\\7a2df19a423821193ddba1baeb89a378\\transformed\\foundation-release\\res\\values-zh-rHK\\values-zh-rHK.xml",

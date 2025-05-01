@@ -7,28 +7,28 @@ import android.view.View;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.SavedStateHandle;
 import androidx.lifecycle.ViewModel;
-import com.example.jetmovie.MainActivity;
-import com.example.jetmovie.common.data.ApiMapper;
-import com.example.jetmovie.di.MovieDetailModule;
-import com.example.jetmovie.di.MovieDetailModule_ProvideMovieDetailApiServiceFactory;
-import com.example.jetmovie.di.MovieDetailModule_ProvideMovieDetailRepositoryFactory;
-import com.example.jetmovie.di.MovieDetailModule_ProvideMovieMapperFactory;
-import com.example.jetmovie.di.MovieModule;
-import com.example.jetmovie.di.MovieModule_ProvideMovieApiServiceFactory;
-import com.example.jetmovie.di.MovieModule_ProvideMovieMapperFactory;
-import com.example.jetmovie.di.MovieModule_ProvideMovieRepositoryFactory;
-import com.example.jetmovie.movie.data.remote.api.MovieApiService;
-import com.example.jetmovie.movie.data.remote.models.MovieDto;
-import com.example.jetmovie.movie.domain.models.Movie;
-import com.example.jetmovie.movie.domain.repository.MovieRepository;
-import com.example.jetmovie.movie_detail.data.remote.api.MovieDetailApiService;
-import com.example.jetmovie.movie_detail.data.remote.models.MovieDetailDto;
-import com.example.jetmovie.movie_detail.domain.models.MovieDetail;
-import com.example.jetmovie.movie_detail.domain.repository.MovieDetailRepository;
-import com.example.jetmovie.ui.detail.DetailViewModel;
-import com.example.jetmovie.ui.detail.DetailViewModel_HiltModules_KeyModule_ProvideFactory;
-import com.example.jetmovie.ui.home.HomeViewModel;
-import com.example.jetmovie.ui.home.HomeViewModel_HiltModules_KeyModule_ProvideFactory;
+import com.example.movithub.MainActivity;
+import com.example.movithub.common.data.ApiMapper;
+import com.example.movithub.di.MovieDetailModule;
+import com.example.movithub.di.MovieDetailModule_ProvideMovieDetailApiServiceFactory;
+import com.example.movithub.di.MovieDetailModule_ProvideMovieDetailRepositoryFactory;
+import com.example.movithub.di.MovieDetailModule_ProvideMovieMapperFactory;
+import com.example.movithub.di.MovieModule;
+import com.example.movithub.di.MovieModule_ProvideMovieApiServiceFactory;
+import com.example.movithub.di.MovieModule_ProvideMovieMapperFactory;
+import com.example.movithub.di.MovieModule_ProvideMovieRepositoryFactory;
+import com.example.movithub.movie.data.remote.api.MovieApiService;
+import com.example.movithub.movie.data.remote.models.MovieDto;
+import com.example.movithub.movie.domain.models.Movie;
+import com.example.movithub.movie.domain.repository.MovieRepository;
+import com.example.movithub.movie_detail.data.remote.api.MovieDetailApiService;
+import com.example.movithub.movie_detail.data.remote.models.MovieDetailDto;
+import com.example.movithub.movie_detail.domain.models.MovieDetail;
+import com.example.movithub.movie_detail.domain.repository.MovieDetailRepository;
+import com.example.movithub.ui.detail.DetailViewModel;
+import com.example.movithub.ui.detail.DetailViewModel_HiltModules_KeyModule_ProvideFactory;
+import com.example.movithub.ui.home.HomeViewModel;
+import com.example.movithub.ui.home.HomeViewModel_HiltModules_KeyModule_ProvideFactory;
 import dagger.hilt.android.ActivityRetainedLifecycle;
 import dagger.hilt.android.ViewModelLifecycle;
 import dagger.hilt.android.flags.HiltWrapper_FragmentGetContextFix_FragmentGetContextFixModule;
@@ -466,7 +466,7 @@ public final class DaggerMovieApplication_HiltComponents_SingletonC {
 
     @Override
     public Map<String, Provider<ViewModel>> getHiltViewModelMap() {
-      return MapBuilder.<String, Provider<ViewModel>>newMapBuilder(2).put("com.example.jetmovie.ui.detail.DetailViewModel", ((Provider) detailViewModelProvider)).put("com.example.jetmovie.ui.home.HomeViewModel", ((Provider) homeViewModelProvider)).build();
+      return MapBuilder.<String, Provider<ViewModel>>newMapBuilder(2).put("com.example.movithub.ui.detail.DetailViewModel", ((Provider) detailViewModelProvider)).put("com.example.movithub.ui.home.HomeViewModel", ((Provider) homeViewModelProvider)).build();
     }
 
     @Override
@@ -495,10 +495,10 @@ public final class DaggerMovieApplication_HiltComponents_SingletonC {
       @Override
       public T get() {
         switch (id) {
-          case 0: // com.example.jetmovie.ui.detail.DetailViewModel 
+          case 0: // com.example.movithub.ui.detail.DetailViewModel 
           return (T) new DetailViewModel(singletonCImpl.provideMovieDetailRepositoryProvider.get(), viewModelCImpl.savedStateHandle);
 
-          case 1: // com.example.jetmovie.ui.home.HomeViewModel 
+          case 1: // com.example.movithub.ui.home.HomeViewModel 
           return (T) new HomeViewModel(singletonCImpl.provideMovieRepositoryProvider.get());
 
           default: throw new AssertionError(id);
@@ -608,7 +608,7 @@ public final class DaggerMovieApplication_HiltComponents_SingletonC {
     }
 
     @Override
-    public void injectMovieApplication(MovieApplication arg0) {
+    public void injectMovieApplication(MovieApplication movieApplication) {
     }
 
     @Override
@@ -640,22 +640,22 @@ public final class DaggerMovieApplication_HiltComponents_SingletonC {
       @Override
       public T get() {
         switch (id) {
-          case 0: // com.example.jetmovie.movie_detail.domain.repository.MovieDetailRepository 
+          case 0: // com.example.movithub.movie_detail.domain.repository.MovieDetailRepository 
           return (T) MovieDetailModule_ProvideMovieDetailRepositoryFactory.provideMovieDetailRepository(singletonCImpl.provideMovieDetailApiServiceProvider.get(), singletonCImpl.provideMovieMapperProvider.get(), singletonCImpl.provideMovieMapperProvider2.get());
 
-          case 1: // com.example.jetmovie.movie_detail.data.remote.api.MovieDetailApiService 
+          case 1: // com.example.movithub.movie_detail.data.remote.api.MovieDetailApiService 
           return (T) MovieDetailModule_ProvideMovieDetailApiServiceFactory.provideMovieDetailApiService();
 
-          case 2: // com.example.jetmovie.common.data.ApiMapper<com.example.jetmovie.movie_detail.domain.models.MovieDetail,com.example.jetmovie.movie_detail.data.remote.models.MovieDetailDto> 
+          case 2: // com.example.movithub.common.data.ApiMapper<com.example.movithub.movie_detail.domain.models.MovieDetail,com.example.movithub.movie_detail.data.remote.models.MovieDetailDto> 
           return (T) MovieDetailModule_ProvideMovieMapperFactory.provideMovieMapper();
 
-          case 3: // com.example.jetmovie.common.data.ApiMapper<java.util.List<com.example.jetmovie.movie.domain.models.Movie>,com.example.jetmovie.movie.data.remote.models.MovieDto> 
+          case 3: // com.example.movithub.common.data.ApiMapper<java.util.List<com.example.movithub.movie.domain.models.Movie>,com.example.movithub.movie.data.remote.models.MovieDto> 
           return (T) MovieModule_ProvideMovieMapperFactory.provideMovieMapper();
 
-          case 4: // com.example.jetmovie.movie.domain.repository.MovieRepository 
+          case 4: // com.example.movithub.movie.domain.repository.MovieRepository 
           return (T) MovieModule_ProvideMovieRepositoryFactory.provideMovieRepository(singletonCImpl.provideMovieApiServiceProvider.get(), singletonCImpl.provideMovieMapperProvider2.get());
 
-          case 5: // com.example.jetmovie.movie.data.remote.api.MovieApiService 
+          case 5: // com.example.movithub.movie.data.remote.api.MovieApiService 
           return (T) MovieModule_ProvideMovieApiServiceFactory.provideMovieApiService();
 
           default: throw new AssertionError(id);

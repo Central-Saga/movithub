@@ -136,7 +136,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ASUS\.gradle\cache
 		ADDED from C:\Users\ASUS\.android\jetMovie-master\app\src\main\AndroidManifest.xml:9:9-65
 	android:name
 		ADDED from C:\Users\ASUS\.android\jetMovie-master\app\src\main\AndroidManifest.xml:7:9-52
-activity#com.example.jetmovie.MainActivity
+activity#com.example.movithub.MainActivity
 ADDED from C:\Users\ASUS\.android\jetMovie-master\app\src\main\AndroidManifest.xml:17:9-27:20
 	android:label
 		ADDED from C:\Users\ASUS\.android\jetMovie-master\app\src\main\AndroidManifest.xml:20:13-45
@@ -360,7 +360,7 @@ ADDED from [androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\8.10.2\trans
 		ADDED from [androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\8.10.2\transforms\1dc9637d360ff7d2c4083262251647bb\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\8.10.2\transforms\1dc9637d360ff7d2c4083262251647bb\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
-permission#com.example.jetmovie.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.example.movithub.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\8.10.2\transforms\1dc9637d360ff7d2c4083262251647bb\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\8.10.2\transforms\1dc9637d360ff7d2c4083262251647bb\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
@@ -370,7 +370,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\8.10.2\transforms\1dc9637d360ff7d2c4083262251647bb\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\8.10.2\transforms\1dc9637d360ff7d2c4083262251647bb\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
-uses-permission#com.example.jetmovie.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.example.movithub.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\8.10.2\transforms\1dc9637d360ff7d2c4083262251647bb\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\8.10.2\transforms\1dc9637d360ff7d2c4083262251647bb\transformed\core-1.13.1\AndroidManifest.xml:26:22-94

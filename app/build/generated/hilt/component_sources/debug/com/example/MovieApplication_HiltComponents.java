@@ -1,10 +1,10 @@
 package com.example;
 
-import com.example.jetmovie.MainActivity_GeneratedInjector;
-import com.example.jetmovie.di.MovieDetailModule;
-import com.example.jetmovie.di.MovieModule;
-import com.example.jetmovie.ui.detail.DetailViewModel_HiltModules;
-import com.example.jetmovie.ui.home.HomeViewModel_HiltModules;
+import com.example.movithub.MainActivity_GeneratedInjector;
+import com.example.movithub.di.MovieDetailModule;
+import com.example.movithub.di.MovieModule;
+import com.example.movithub.ui.detail.DetailViewModel_HiltModules;
+import com.example.movithub.ui.home.HomeViewModel_HiltModules;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;

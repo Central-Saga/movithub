@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.jetmovie.app-mergeDebugResources-2:/values-pt-rPT/values-pt-rPT.xml",
+            "outputFile": "com.example.movithub.app-mergeDebugResources-2:/values-pt-rPT/values-pt-rPT.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ASUS\\.gradle\\caches\\8.10.2\\transforms\\a3a6abc618bb34845a0deca9bc836996\\transformed\\material3-release\\res\\values-pt-rPT\\values-pt-rPT.xml",
